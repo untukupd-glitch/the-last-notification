@@ -7,7 +7,7 @@ const ASSETS=[
 'https://media.vogue.co.jp/photos/6997fe35ff60e15920687454/4%3A3/w_1688,h_1266,c_limit/1-CORTIS-voguejapan.jpg',
 'https://pbs.twimg.com/media/GzZn3Cpa4AEg9r4.jpg',
 'https://pbs.twimg.com/media/GyPlKwZaUAAz51q.jpg',
-'/assets/james-airport.jpg','/assets/james-backstage.jpg','/assets/james-musicbank.jpg','/assets/james-airport-hood.jpg','/assets/cortis-backstage.jpg','/assets/cortis-laundromat.jpg','/assets/cortis-mirror-selfie.jpg','/assets/cortis-hallway.jpg','/assets/james-fansign.jpg','/assets/james-sunflower.jpg','/assets/james-arrival.jpg','/assets/james-candid-selfie.jpg','/assets/james-fansign-glasses.jpg','/assets/cortis-dressing-room.jpg'
+'https://the-last-30r3.hatchable.site/assets/james-airport.jpg','https://the-last-30r3.hatchable.site/assets/james-backstage.jpg','https://the-last-30r3.hatchable.site/assets/james-musicbank.jpg','https://the-last-30r3.hatchable.site/assets/james-airport-hood.jpg','https://the-last-30r3.hatchable.site/assets/cortis-backstage.jpg','https://the-last-30r3.hatchable.site/assets/cortis-laundromat.jpg','https://the-last-30r3.hatchable.site/assets/cortis-mirror-selfie.jpg','https://the-last-30r3.hatchable.site/assets/cortis-hallway.jpg','https://the-last-30r3.hatchable.site/assets/james-fansign.jpg','https://the-last-30r3.hatchable.site/assets/james-sunflower.jpg','https://the-last-30r3.hatchable.site/assets/james-arrival.jpg','https://the-last-30r3.hatchable.site/assets/james-candid-selfie.jpg','https://the-last-30r3.hatchable.site/assets/james-fansign-glasses.jpg','https://the-last-30r3.hatchable.site/assets/cortis-dressing-room.jpg'
 ];
 const names=['Martin','Juhoon','Seonghyeon','Keonho','James','@notjames'];
 const missionData=[

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#08090d"><title>THE LAST NOTIFICATION — Digital AU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="stage">
+  <div class="device" id="device">
+    <div class="side-button mute"></div><div class="side-button volume-up"></div><div class="side-button volume-down"></div><div class="side-button power"></div>
+    <div class="bezel">
+      <div class="screen" id="screen">
+        <div class="dynamic-island"><span class="island-camera"></span><span class="island-lens"></span></div>
+        <div class="statusbar"><span id="statusTime">9:41</span><span class="status-right"><span class="signal">▂▄▆</span><span>⌁</span><span class="battery"><i></i></span></span></div>
+        <section id="lock" class="view lock-view">
+          <div class="lock-wallpaper"></div><div class="lock-date" id="lockDate">SATURDAY, OCTOBER 31</div><div class="lock-time" id="lockTime">03:33</div>
+          <div class="lock-weather">YOGYAKARTA <span>·</span> 19°</div>
+          <div class="lock-widgets"><div class="weather-widget"><span>☾</span><b>19°</b><small>Cloudy night</small></div><div class="battery-widget"><b>3%</b><small>Battery</small><div class="battery-line"><i></i></div></div></div>
+          <div class="lock-notifications" id="lockNotifications"></div>
+          <div class="lock-shortcuts"><button aria-label="Flashlight">◉</button><button aria-label="Camera">◎</button></div>
+          <button class="swipe-unlock" id="swipeUnlock"><span></span>Swipe up to open</button>
+        </section>
+        <section id="passcode" class="view pass-view hidden">
+          <button class="pass-cancel" id="passCancel">Cancel</button><div class="pass-avatar">J</div><h2>Enter Passcode</h2><p>Hint: the day James was born.</p>
+          <div class="pass-dots" id="passDots"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="keypad" id="keypad"></div><p class="pass-error" id="passError"></p>
+        </section>
+        <section id="home" class="view home-view hidden">
+          <div class="home-top"><span id="homeDate">Saturday, October 31</span><span id="homeClock">03:33</span></div>
+          <div class="widget-stack">
+            <div class="calendar-widget"><div><small>SATURDAY</small><strong>31</strong></div><p>Tonight is not<br>what it seems.</p><span class="calendar-dot"></span></div>
+            <div class="mission-widget" id="missionWidget"><div class="mission-title"><span>CASE FILE</span><b id="missionCount">0/5</b></div><div class="mission-progress"><i id="missionBar"></i></div><strong id="missionName">MISSION 01 · CHECK YOUR MESSAGES</strong><small id="missionHint">Open WhatsApp to begin.</small></div>
+          </div>
+          <div class="app-grid" id="appGrid"></div>
+          <div class="dock" id="dock"></div>
+          <div class="home-bottom"><span>Search</span><span class="home-page-dots">● ○</span></div>
+        </section>
+        <section id="appView" class="view app-view hidden">
+          <div class="app-status"><span id="appClock">03:33</span><span class="status-right"><span>▂▄▆</span><span>⌁</span><span class="battery"><i></i></span></span></div>
+          <header class="app-header" id="appHeader"></header><div class="app-body" id="appBody"></div>
+        </section>
+        <section id="controlCenter" class="control-center hidden">
+          <div class="cc-handle"></div><div class="cc-grid"><button>✈<small>Airplane</small></button><button>⌁<small>Wi-Fi</small></button><button>ᛒ<small>Bluetooth</small></button><button>◉<small>Focus</small></button></div><div class="cc-slider">☼ <span></span></div><div class="cc-slider">♫ <span></span></div><button id="closeCC">Done</button>
+        </section>
+        <section id="notificationCenter" class="notification-center hidden"><div class="nc-handle"></div><div class="nc-head"><b>Notification Center</b><button id="closeNC">×</button></div><div id="notificationList"></div><p class="nc-empty" id="ncEmpty">No older notifications.</p></section>
+        <div class="toast hidden" id="toast"></div><div class="banner hidden" id="banner"></div>
+        <section id="ending" class="ending hidden"><div class="ending-noise"></div><div class="ending-content"><small>03:33 AM · UNKNOWN DEVICE</small><h1>THE LAST<br>NOTIFICATION</h1><p id="endingCopy">The camera roll has one new memory.</p><div class="ending-photo" id="endingPhoto"></div><div class="ending-message" id="endingMessage"></div><button id="restartStory">Restart story</button></div></section>
+        <div class="home-indicator" id="homeIndicator"><i></i></div>
+      </div>
+    </div>
+  </div>
+  <div class="stage-caption"><span>THE LAST NOTIFICATION</span><span>AN INTERACTIVE DIGITAL AU · FICTIONAL CORTIS STORY</span><button id="soundToggle">SOUND: OFF</button><button id="resetProgress">RESET STORY</button></div>
+</main>
+<script src="/app.js"></script>
+</body></html>
